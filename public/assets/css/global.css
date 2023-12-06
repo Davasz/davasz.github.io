@@ -1,0 +1,8 @@
+@import url('./colors.css');
+@import url('./font.css');
+@import url('./reset.css');
+
+a:hover {
+    text-decoration: underline;
+    transition-duration: 0.3s;
+}
