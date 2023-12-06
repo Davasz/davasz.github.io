@@ -1,0 +1,56 @@
+:root {
+    --black : #000000;
+    --dark-gray: #6A6A6A;
+    --gray: #BABABA;
+    --dark-white: #F1F1F1;
+    --white: #FFFFFF;
+    --light-gray: #D9D9D9;
+    --ultra-light-gray: #DBDBDB;
+}
+
+/* Fundos */
+
+.bg-main {
+    background-color: var(--dark-white);
+    color: var(--dark-white);
+}
+
+.bg-white {
+    background-color: var(--white);
+    color: var(--white);
+}
+
+.bg-black {
+    background-color: var(--black);
+    color: var(--black);
+}
+
+.bg-gray-elements {
+    background-color: var(--gray);
+    color: var(--gray);
+}
+
+.bg-form-elements {
+    background-color: var(--light-gray);
+    color: var(--light-gray);
+}
+
+.bg-heart {
+    background-color: var(--ultra-light-gray);
+    color: var(--ultra-light-gray);
+}
+
+
+/* Fontes */
+
+.black {
+    color: var(--black);
+}
+
+.dark-gray {
+    color: var(--dark-gray);
+}
+
+.form-gray {
+    color: #6c6c6c
+}

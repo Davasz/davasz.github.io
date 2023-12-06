@@ -1,0 +1,23 @@
+/* Fontes */
+
+.montserrat {
+    font-family: Montserrat;
+}
+
+.cascadia-code {
+    font-family: Cascadia Code;
+}
+
+
+/* Estilos */
+
+.font-500 {
+    font-weight: 500;
+}
+
+.font-400 {
+    font-weight: 400;
+}
+.font-300 {
+    font-weight: 300;
+}
