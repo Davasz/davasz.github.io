@@ -1,0 +1,53 @@
+.project-section {
+    margin-top: 9rem;
+}
+
+.project-section .projetos-tittle {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.project-section .card {
+    display: flex;
+    align-items: center;
+    height: 114px;
+    border-radius: 17px;
+    margin-bottom: 2rem;
+}
+
+.project-section .card img {
+    width: 59px;
+    height: 59px;
+    margin-left: 4rem;
+}
+
+.project-section .card .link-icon {
+    width: 49px;
+    height: 43px;
+    justify-content: flex-end;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.project-section .card h1 {
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-section .card p {
+    font-size: 1.3rem;
+    width: 31rem
+}
+
+.project-section .card .text {
+    margin-left: 4.6rem;
+}
+
+.project-section .card .link-icon:hover {
+    transform: translateY(-5px);
+  
+}
+
+.project-section .card:hover {
+    background-color: rgb(230, 230, 230);
+}
