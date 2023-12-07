@@ -14,5 +14,9 @@ header img {
 
 header a {
     font-size: 1.7em;
-    margin: 2rem;
+    margin-right: 3rem;
+}
+
+header a:hover {
+    color: rgb(111, 111, 111);
 }
