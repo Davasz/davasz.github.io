@@ -6,3 +6,13 @@ a:hover {
     text-decoration: underline;
     transition-duration: 0.3s;
 }
+
+body {
+    background-color: var(--dark-white);
+}
+
+main {
+    width: 39vw;
+    height: 2005px;
+    margin: auto;
+}
