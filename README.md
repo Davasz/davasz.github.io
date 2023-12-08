@@ -1,2 +1,2 @@
-# davi-portfolio
+# davasz.github.io
 Portifólio pessoal definitivo.
