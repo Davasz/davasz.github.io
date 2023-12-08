@@ -35,6 +35,11 @@
     color: var(--light-gray);
 }
 
+.bg-gray {
+    background-color: var(--gray);
+    color: var(--gray);
+}
+
 .bg-heart {
     background-color: var(--ultra-light-gray);
     color: var(--ultra-light-gray);
