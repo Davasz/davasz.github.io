@@ -1,0 +1,58 @@
+.contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 9rem;
+}
+
+.contact h1 {
+    font-size: 2rem;
+}
+
+.contact .gray-bar {
+    width: 10.1rem;
+    height: 0.6rem;
+    margin-top: 0.6rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.contact .email {
+    width: 42rem;
+    height: 49px;
+    border-radius: 14px;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+}
+
+
+.contact .mensage {
+    width: 42rem;
+    height: 20rem; 
+    border-radius: 14px;
+    font-size: 1.5rem;
+    padding-left: 3rem; 
+    padding-top: 2rem;
+    padding-right: 3rem;
+    resize: none; 
+    overflow-y: auto; 
+    margin-top: 2rem; 
+}
+
+.email:focus {
+    outline-color: rgb(151, 149, 149);
+}
+
+.mensage:focus {
+    outline-color: rgb(151, 149, 149);
+}
+
+.contact button {
+    width: 166px;
+    height: 55px;
+    border-radius: 14px;
+}

@@ -14,11 +14,12 @@
     <link rel="stylesheet" href="../assets/pages/css/header.css">
     <link rel="stylesheet" href="../assets/pages/css/firstSection.css">
     <link rel="stylesheet" href="../assets/pages/css/projects.css">
+    <link rel="stylesheet" href="../assets/pages/css/contact.css">
 </head>
 <body>
     <main>
         <header>
-            <a class="black font-500 montserrat" href="#">Projetos</a>
+            <a class="black font-500 montserrat" href="#projetos">Projetos</a>
             <a class="black font-500 montserrat" href="#">Contatos</a>
             <img src="../assets/img/icons/translate-icon.svg" alt="ícone de mudar idioma">
         </header>
@@ -33,7 +34,7 @@
             </button>
         </section>
 
-        <section class="project-section">
+        <section id="projetos" class="project-section">
             <h1 class="projetos-tittle black font-500 montserrat">Projetos</h1>
             <div class="card bg-white">
                 <img src="../assets/img/strike-img.png" alt="ícone da strike ">
@@ -77,6 +78,20 @@
                 <a href="https://davasz.github.io/Pokedex/"><img class="link-icon" src="../assets/img//icons/link-icon.svg" alt="ícone de acessar"></a>
             </div>
         </section>
+
+        <section class="contact">
+            <h1 class="black font-500 montserrat">Contate-me!</h1>
+            <div class="gray-bar bg-gray"></div>
+            <form action="">
+              <input class="email bg-form-elements font-500 montserrat form-gray" type="text" placeholder="Email">
+              <textarea class="mensage bg-form-elements font-500 montserrat form-gray" placeholder="Digite sua mensagem"></textarea>
+              <button class="bg-form-elements" type="submit">
+                <img src="../assets/img/icons/sendemail-icon.svg" alt="ícone de enviar email">
+                <span class="font-500 montserrat">Enviar</span>
+              </button>
+            </form>
+          </section>
+          
     </main>
 </body>
 </html>
