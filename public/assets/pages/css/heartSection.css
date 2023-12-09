@@ -1,0 +1,13 @@
+.heart-section {
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heart-bar {
+    width: 177px;
+    height: 7px;
+    margin-top: 1rem;
+}
+

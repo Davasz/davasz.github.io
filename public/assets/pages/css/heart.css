@@ -1,0 +1,122 @@
+.container {
+   display: flex;
+   justify-content: center;
+    width: 60px;
+}
+
+.heart-group {
+    position: relative;
+}
+
+.heart {
+    pointer-events: all;
+    fill: hotpink;
+    fill-opacity: 0;
+    margin: auto;
+    stroke: hotpink;
+    stroke-width: 3px;
+    transition: transform 0.5s;
+    width: 300px;
+    height: auto;
+}
+
+.heart:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.heart-click {
+    animation: anim-heart-click 0.6s ease-out forwards;
+}
+
+.mini-heart {
+    fill: hotpink;
+    position: absolute;
+    width: 60px;
+    opacity: 0;
+}
+
+.mini-heart-animation-container {
+    left: 75px;
+    position: absolute;
+    top: 65px;
+}
+
+.mini-heart-click {
+    animation: upDown 0.6s ease-out forwards;
+    animation-delay: 0.3s;
+}
+
+.mini-heart-container-click-1 {
+    animation: translate1 0.6s linear;
+    animation-delay: 0.3s;
+}
+
+.mini-heart-container-click-2 {
+    animation: translate2 0.6s linear;
+    animation-delay: 0.3s;
+}
+
+.mini-heart-container-click-3 {
+    animation: translate3 0.6s linear;
+    animation-delay: 0.3s;
+}
+
+@keyframes anim-heart-click {
+    0% {
+        transform: scale(1);
+        fill-opacity: 0;
+    }
+
+    25% {
+        fill-opacity: 1;
+    }
+
+    45% {
+        transform: scale(0.8);
+    }
+
+    70% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+        fill-opacity: 1;
+    }
+}
+
+@keyframes upDown {
+    0% {
+        left: 1;
+        opacity: 1;
+        top: 0;
+    }
+
+    65% {
+        top: -75px;
+    }
+
+    100% {
+        opacity: 0;
+        top: -65px;
+    }
+}
+
+@keyframes translate1 {
+    100% {
+        transform: translatex(1px);
+    }
+}
+
+@keyframes translate2 {
+    100% {
+        transform: translatex(-7px);
+    }
+}
+
+@keyframes translate3 {
+    100% {
+        transform: translatex(-41px);
+    }
+}
