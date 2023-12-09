@@ -20,3 +20,15 @@ header a {
 header a:hover {
     color: rgb(111, 111, 111);
 }
+
+header img {
+    transition: 0.3s;
+}
+
+header img:hover {
+    transform: translateY(-3px);
+}
+
+header img:active {
+    transform: translateY(10px);
+}
