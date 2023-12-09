@@ -1,0 +1,11 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.final-footer {
+    font-size: 1.4rem;
+    margin-top: 9rem;
+    margin-bottom: 3rem;
+}
