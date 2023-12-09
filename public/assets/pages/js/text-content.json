@@ -17,7 +17,7 @@
         "Projeto que consome a API “PokeAPI” e dispõe os dados em uma interface interativa." : "Project that consumes the “PokeAPI” API and displays the data in an interactive interface.",
         "Contate-me!" : "Contact me!",
         "Enviar" : "Submit",
-        "Contribua com seu S2!" : "Help us with your S2",
+        "Contribua com seu S2!" : "Help with your S2",
         "Feito por Davi © 2023" : "Made by Davi © 2023"
     },
 
@@ -38,7 +38,7 @@
         "Project that consumes the “PokeAPI” API and displays the data in an interactive interface." : "Projeto que consome a API “PokeAPI” e dispõe os dados em uma interface interativa.",
         "Contact me!" : "Contate-me!",
         "Submit" : "Enviar",
-        "Help us with your S2" : "Contribua com seu S2!",
+        "Help with your S2" : "Contribua com seu S2!",
         "Strike System" : "Strike System"
     }
 }
