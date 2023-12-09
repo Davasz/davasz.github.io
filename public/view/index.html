@@ -97,27 +97,37 @@
         <section class="contact">
             <h1 class="black font-500 montserrat">Contate-me!</h1>
             <div class="gray-bar bg-gray"></div>
-            <form action="">
-                <input class="email bg-form-elements font-500 montserrat form-gray" type="text" placeholder="Email">
+            <form action="https://formsubmit.co/davidavi200615@gmail.com" method="POST">
+                <input class="email bg-form-elements font-500 montserrat form-gray" type="text" name="email" placeholder="Email" required>
                 <textarea class="mensage bg-form-elements font-500 montserrat form-gray"
-                    placeholder="Digite sua mensagem"></textarea>
+                    placeholder="Digite sua mensagem" name="mensagem" required></textarea>
                 <button class="bg-form-elements" type="submit">
                     <img src="../assets/img/icons/sendemail-icon.svg" alt="ícone de enviar email">
                     <span class="form-gray font-500 montserrat">Enviar</span>
                 </button>
+
+                <input type="hidden" name="_subject" value="Novo contato!">
+                <input type="text" name="_honey" style="display: none">
+                <input type="hidden" name="_captcha" value="false">
             </form>
 
             <div class="social-icons">
                 <div class="icons-w-bar">
-                    <img src="../assets/img/icons/github-icon.svg" alt="ícone do github">
+                    <a href="https://github.com/Davasz">
+                        <img src="../assets/img/icons/github-icon.svg" alt="ícone do github">
+                    </a>
                     <div class="icon-bar bg-gray"></div>
                 </div>
                 <div class="icons-w-bar">
-                    <img src="../assets/img/icons/Instagram-icon.svg" alt="ícone do instagram">
+                    <a href="https://www.instagram.com/davas_sz/">
+                        <img src="../assets/img/icons/Instagram-icon.svg" alt="ícone do instagram">                    
+                    </a>
                     <div class="icon-bar bg-gray"></div>
                 </div>
                 <div class="icons-w-bar">
-                    <img src="../assets/img/icons/linkedin-icon.svg" alt="ícone do linkedin">
+                    <a href="https://www.linkedin.com/in/davi-souza-745155246/">
+                        <img src="../assets/img/icons/linkedin-icon.svg" alt="ícone do linkedin">
+                    </a>
                     <div class="icon-bar bg-gray"></div>
                 </div>
             </div>
