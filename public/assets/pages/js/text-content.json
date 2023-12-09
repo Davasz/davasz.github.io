@@ -1,0 +1,44 @@
+{
+    "en": {
+        "Contatos" : "Contacts",
+        "Projetos" : "Projects",
+        "Olá, eu sou o Davi." : "Hello, I'm Davi.",
+        "Desenvolvedor back-end.": "Back-end developer." ,
+        "Sou desenvolvedor Java e Node.js, mas me adequo à qualquer tecnologia ou desafio. Trabalho como CoFundador da startup ForCompany. Minha paixão é construir aplicações inovadoras e que atendam qualquer tipo de demanda." : "I'm a Java and Node.js developer, but I adapt to any technology or challenge. I work as Co-Founder of the startup ForCompany. My passion is to build innovative applications that meet any type of demand.",
+        "Strike System" : "Strike System",
+        "Sistema de controle para a academia Strike." : "Control system for the Strike gym.",
+        "Autenticação Node.js" : "Node.js authentication",
+        "API de autenticação feita em Node.js, Express e JWT." : "Authentication API made in Node.js, Express and JWT.",
+        "Campo minado no console" : "Minesweeper on the console",
+        "Jogo de campo minado desenvolvido em java utilizando os princípios da POO." : "Minesweeper game developed in Java using OOP principles.",
+        "Antigo portifólio" : "Old portfolio",
+        "Meu antigo portifólio pessoal, desenvolvido em HTML, CSS e JavaScript." : "My old personal portfolio, developed in HTML, CSS and JavaScript.",
+        "Pokedex" : "Pokedex",
+        "Projeto que consome a API “PokeAPI” e dispõe os dados em uma interface interativa." : "Project that consumes the “PokeAPI” API and displays the data in an interactive interface.",
+        "Contate-me!" : "Contact me!",
+        "Enviar" : "Submit",
+        "Contribua com seu S2!" : "Help us with your S2",
+        "Feito por Davi © 2023" : "Made by Davi © 2023"
+    },
+
+    "pt" : {
+        "Contacts" : "Contatos",
+        "Projects" : "Projetos",
+        "Hello, I'm Davi." : "Olá, eu sou o Davi.",
+        "Back-end developer." : "Desenvolvedor back-end.",
+        "I'm a Java and Node.js developer, but I adapt to any technology or challenge. I work as Co-Founder of the startup ForCompany. My passion is to build innovative applications that meet any type of demand." : "Sou desenvolvedor Java e Node.js, mas me adequo à qualquer tecnologia ou desafio. Trabalho como CoFundador da startup ForCompany. Minha paixão é construir aplicações inovadoras e que atendam qualquer tipo de demanda.",
+        "Control system for the Strike gym." : "Sistema de controle para a academia Strike.",
+        "Node.js authentication" : "Autenticação Node.js",
+        "Authentication API made in Node.js, Express and JWT." : "API de autenticação feita em Node.js, Express e JWT.",
+        "Minesweeper on the console" : "Campo minado no console",
+        "Minesweeper game developed in Java using OOP principles." : "Jogo de campo minado desenvolvido em java utilizando os princípios da POO.",
+        "Old portfolio" : "Antigo portifólio",
+        "My old personal portfolio, developed in HTML, CSS and JavaScript." : "Meu antigo portifólio pessoal, desenvolvido em HTML, CSS e JavaScript.",
+        "Pokedex" : "Pokedex",
+        "Project that consumes the “PokeAPI” API and displays the data in an interactive interface." : "Projeto que consome a API “PokeAPI” e dispõe os dados em uma interface interativa.",
+        "Contact me!" : "Contate-me!",
+        "Submit" : "Enviar",
+        "Help us with your S2" : "Contribua com seu S2!",
+        "Strike System" : "Strike System"
+    }
+}
