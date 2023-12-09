@@ -8,7 +8,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "start" : "npm run main.js",
+    "start" : "node main.js",
     "dev" : "nodemon main.js"
   },
   "keywords": [],
