@@ -1,5 +1,6 @@
 const translateButton = document.querySelector('.translate-button')
-const allElements =  document.querySelectorAll('*')
+const allElements =  document.querySelectorAll('.pt')
+console.log(allElements)
 
 const feachJson = async () => {
    const response = await fetch("../assets/pages/js/text-content.json");
