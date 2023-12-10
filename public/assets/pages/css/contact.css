@@ -29,7 +29,6 @@
     padding-left: 3rem;
 }
 
-
 .contact .mensage {
     width: 42rem;
     height: 20rem; 
@@ -43,10 +42,7 @@
     margin-top: 2rem; 
 }
 
-.email:focus {
-    outline-color: rgb(151, 149, 149);
-}
-
+.email:focus,
 .mensage:focus {
     outline-color: rgb(151, 149, 149);
 }
@@ -99,47 +95,21 @@
 
 @media (max-width: 600px) {
     .contact {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 9rem;
         width: 90vw;
     }
 
     .contact form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 5rem;
         width: 80vw;
     }
 
-    .contact .email {
+    .contact .email,
+    .contact .mensage {
         width: 80vw;
-        height: 49px;
-        border-radius: 14px;
         font-size: 1.7rem;
         padding-left: 3rem;
     }
-    
-    
-    .contact .mensage {
-        width: 80vw;
-        height: 20rem; 
-        border-radius: 14px;
-        font-size: 1.7rem;
-        padding-left: 3rem; 
-        padding-top: 2rem;
-        padding-right: 3rem;
-        resize: none; 
-        overflow-y: auto; 
-        margin-top: 2rem; 
-    }
 
     .social-icons {
-        display: flex;
-        justify-content: center;
         gap: 10%;
-        margin-top: 9rem;
     }
 }

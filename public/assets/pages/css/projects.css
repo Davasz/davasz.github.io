@@ -36,7 +36,7 @@
 
 .project-section .card p {
     font-size: 1.3rem;
-    width: 31rem
+    width: 31rem;
 }
 
 .project-section .card .text {
@@ -45,7 +45,6 @@
 
 .project-section .card .link-icon:hover {
     transform: translateY(-5px);
-  
 }
 
 .project-section .card:hover {
@@ -54,16 +53,10 @@
 
 @media (max-width: 600px) {
     .project-section .card {
-        display: flex;
-        align-items: center;
-        width: 90vw ;
-        height: 114px;
-        border-radius: 17px;
-        margin-bottom: 2rem;
+        width: 90vw;
     }
 
     .project-section .card p {
-        font-size: 1.3rem;
         width: 100%;
     }
 
@@ -72,8 +65,6 @@
     }
     
     .project-section .card img {
-        width: 59px;
-        height: 59px;
         margin-left: 2rem; 
     }
 

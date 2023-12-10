@@ -1,53 +1,47 @@
 const translateButton = document.querySelector('.translate-button')
-const allElements =  document.querySelectorAll('.pt')
-console.log(allElements)
+const allElements = document.querySelectorAll('.pt')
 
-const feachJson = async () => {
-   const response = await fetch("../assets/pages/js/text-content.json");
-   const data = await response.json();
-   return data;
+const fetchJson = async () => {
+  const response = await fetch("../assets/pages/js/text-content.json")
+  return await response.json()
 }
 
-const translate = () =>{
-    allElements.forEach(e => {
-        if(e.classList.contains('pt')) {
-            feachJson().then(data => {
-                const textContent = e.textContent
-                e.textContent = data.pt[textContent]
-            })
-        }
+const translate = async () => {
+  const data = await fetchJson()
 
-        if(e.classList.contains('en')) {
-            feachJson().then(data => {
-                const textContent = e.textContent
-                document.querySelector('.text-area').placeholder = "Type your message"
-                e.textContent = data.en[textContent]
-            })
-        }
-    })
-}
-
-translateButton.addEventListener('click', () => {
-    if(translateButton.classList.contains('pt-translate')) {
-        translateButton.classList.remove('pt-translate')
-        translateButton.classList.add('en-translate')
-        allElements.forEach(e=> {
-            if(e.classList.contains('pt')) {
-                e.classList.remove('pt')
-                e.classList.add('en')
-            }
-        })
-        translate()
-    } else if(translateButton.classList.contains('en-translate')) {
-        translateButton.classList.remove('en-translate')
-        translateButton.classList.add('pt-translate')
-        allElements.forEach(e=> {
-            if(e.classList.contains('en')) {
-                e.classList.remove('en')
-                e.classList.add('pt')
-            }
-        })
-        translate()
+  allElements.forEach(element => {
+    const textContent = element.textContent
+    if (element.classList.contains('pt')) {
+      element.textContent = data.pt[textContent] // Traduz para português
     }
-    
+    if (element.classList.contains('en')) {
+      document.querySelector('.text-area').placeholder = "Type your message"
+      element.textContent = data.en[textContent] // Traduz para inglês
+    }
+  })
+}
+
+// Mudar idioma
+translateButton.addEventListener('click', () => {
+  if (translateButton.classList.contains('pt-translate')) {
+    translateButton.classList.remove('pt-translate')
+    translateButton.classList.add('en-translate')
+    allElements.forEach(element => {
+      if (element.classList.contains('pt')) {
+        element.classList.remove('pt')
+        element.classList.add('en')
+      }
+    })
+    translate()
+  } else if (translateButton.classList.contains('en-translate')) {
+    translateButton.classList.remove('en-translate')
+    translateButton.classList.add('pt-translate')
+    allElements.forEach(element => {
+      if (element.classList.contains('en')) {
+        element.classList.remove('en')
+        element.classList.add('pt')
+      }
+    })
+    translate()
+  }
 })
