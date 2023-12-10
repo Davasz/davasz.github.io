@@ -10,6 +10,7 @@
 .project-section .card {
     display: flex;
     align-items: center;
+    width: 583px;
     height: 114px;
     border-radius: 17px;
     margin-bottom: 2rem;
@@ -24,7 +25,6 @@
 .project-section .card .link-icon {
     width: 49px;
     height: 43px;
-    justify-content: flex-end;
     cursor: pointer;
     transition: 0.2s;
 }
@@ -50,4 +50,34 @@
 
 .project-section .card:hover {
     background-color: rgb(230, 230, 230);
+}
+
+@media (max-width: 600px) {
+    .project-section .card {
+        display: flex;
+        align-items: center;
+        width: 90vw ;
+        height: 114px;
+        border-radius: 17px;
+        margin-bottom: 2rem;
+    }
+
+    .project-section .card p {
+        font-size: 1.3rem;
+        width: 100%;
+    }
+
+    .project-section .card .link-icon {
+        display: none;
+    }
+    
+    .project-section .card img {
+        width: 59px;
+        height: 59px;
+        margin-left: 2rem; 
+    }
+
+    .project-section .card .text {
+        margin-left: 10%;
+    }
 }
