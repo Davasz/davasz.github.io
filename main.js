@@ -14,8 +14,12 @@ app.get('/', (req, res) => {
 let count = 0
 // Rota para retornar o contador de visualizações
 app.get('/count', (req, res) => {
-  count += 1
   res.json({ count })
+})
+
+// Rota para atualizar o contador
+app.post('/count/att', (req, res) => {
+  count += 1
 })
 
 const PORT = 3333
