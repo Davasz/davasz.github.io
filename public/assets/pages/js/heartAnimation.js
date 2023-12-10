@@ -5,6 +5,7 @@ const miniHeartContainer2 = document.querySelector('.mini-heart-animation-contai
 const miniHeartContainer3 = document.querySelector('.mini-heart-animation-container-3')
 
 const count = document.querySelector('.count')
+let clicks = 0
 
 const getCount = () => {
   fetch('/count')
@@ -16,32 +17,24 @@ const getCount = () => {
 
 // Função para atualizar o contador de curtidas
 const attCount = () => {
-  fetch('/count/att', {
-    method: 'POST'
-  })
-  getCount()
+  fetch('/count/att')
+  clicks += 1
 }
 
-// Função executada quando o elemento 'heart' é clicado
-const contadorAtualizado = localStorage.getItem('contadorAtualizado')
 document.querySelector('.heart').addEventListener('click', () => {
-  if (!contadorAtualizado) {
+  if (!(clicks >= 5)) {
     bigHeart.classList.toggle('heart-click')
     miniHeartArr.map(el => el.classList.toggle('mini-heart-click'))
     miniHeartContainer1.classList.toggle('mini-heart-container-click-1')
     miniHeartContainer2.classList.toggle('mini-heart-container-click-2')
     miniHeartContainer3.classList.toggle('mini-heart-container-click-3')
+    console.log(bigHeart.classList.contains('heart-click'))
 
-    attCount()
-
-    localStorage.setItem('contadorAtualizado', 'true');
+    if (bigHeart.classList.contains('heart-click')) {
+      attCount()
+    }
+    getCount()
   }
 })
-
-// Att a contagem no carregamento da página
-
-if (contadorAtualizado) {
-  bigHeart.classList.toggle('heart-click')
-}
 
 getCount()
