@@ -1,4 +1,4 @@
-import { database, ref, get, runTransaction } from "../../../../config/firebaseConfig.js"
+import { database, ref, get, runTransaction } from "../../../config/firebaseConfig.js"
 
 const bigHeart = document.querySelector('.heart')
 const miniHeartArr = [...document.querySelectorAll('.mini-heart')]
