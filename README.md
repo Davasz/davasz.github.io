@@ -1,2 +1,2 @@
-# davasz.github.io => davasz.onrender.com
+# davasz.github.io => davasz.web.app
 Portifólio pessoal definitivo.
