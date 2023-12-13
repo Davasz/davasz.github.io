@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site" : "davasz",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/view/index.html"
+      }
+    ]
+  }
+}
